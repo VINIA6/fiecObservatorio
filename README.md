@@ -19,23 +19,7 @@ git clone https://github.com/seu-usuario/seu-repositorio.git
 cd seu-repositorio
 ```
 
-### 2. Configuração do Ambiente
-
-Crie um arquivo `.env` na raiz do projeto com as seguintes variáveis:
-```bash
-env
-Airflow
-AIRFLOW_UID=50000
-AIRFLOW_GID=0
-AIRFLOW_USER=airflow
-AIRFLOW_PASSWORD=airflow
-AIRFLOW_DATABASE=airflow
-PostgreSQL
-POSTGRES_USER=airflow
-POSTGRES_PASSWORD=airflow
-POSTGRES_DB=airflow
-```
-### 3. Estrutura de Diretórios
+### 2. Estrutura de Diretórios
 
 ```bash
 ├── docker/
@@ -51,7 +35,7 @@ POSTGRES_DB=airflow
 └── README.md
 ```
 
-### 4. Inicialização do Docker
+### 3. Inicialização do Docker
 Inicie todos os serviços
 ```bash
 docker-compose up -d
