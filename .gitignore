@@ -1,0 +1,73 @@
+# Arquivos compactados
+*.zip
+*.rar
+*.7z
+*.gz
+*.tar
+
+# Arquivos de dados
+*.csv
+*.xls
+*.xlsx
+*.json
+*.xml
+
+# Arquivos de ambiente e configuração
+.env
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.production
+
+
+# Arquivos de cache
+.cache
+.temp
+.tmp
+
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs e editores
+/.idea
+/.vscode
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+/venv/
+/env/
+/.env/
+/.venv/
+/ENV/
+develop-eggs/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
